@@ -1,0 +1,33 @@
+<div>
+  <form [formGroup]="contactForm">
+    <h3>Contact form</h3>
+    <div>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" formControlName="name"/>
+    </div>
+    <div>
+    <label for="email">Email:</label><br>
+    <input type="email" name="email" id="email" formControlName="email"/>
+    </div>
+    <div>
+    <label for="phone">Phone (optional):</label><br>
+    <input type="number" id="phone" name="phone" formControlName="phone"/>
+    </div>
+    <div>
+        <label for="requestType">What would you like to inquire about?</label><br>
+    <select name="requestType" id="requestType" formControlName="requestType">
+      <option value="">--Please choose--</option>
+      <option value="class">Book a Class</option>
+      <option value="private">Private Lesson</option>
+      <option value="group">Group Workshop</option>
+      <option value="jewelry">Jewelry Inquiry</option>
+      <option value="general">General Question</option>
+    </select>
+    </div>
+    <div>
+        <label for="message">Your message:</label><br>
+        <textarea name="message" id="message" rows="5" formControlName="message"></textarea>
+    </div>
+    <button type="submit" [disabled]="!contactForm.valid">Send Request</button>
+  </form>
+</div>

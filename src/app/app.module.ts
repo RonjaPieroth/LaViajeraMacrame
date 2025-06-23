@@ -16,6 +16,7 @@ import { ImpressumComponent } from './impressum/impressum.component';
 import { DatenschutzerklaerungComponent } from './datenschutzerklaerung/datenschutzerklaerung.component';
 import { KontaktComponent } from './kontakt/kontakt.component';
 import { CollectionComponent } from './collection/collection.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { CollectionComponent } from './collection/collection.component';
     ImpressumComponent,
     DatenschutzerklaerungComponent,
     KontaktComponent,
-    CollectionComponent
+    CollectionComponent,
+    ContactFormComponent
   ],
     imports: [
         BrowserModule,
