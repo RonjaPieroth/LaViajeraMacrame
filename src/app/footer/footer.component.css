@@ -1,0 +1,30 @@
+footer {
+  padding: 5px 0;
+  text-align: center;
+}
+
+.footer-container {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-buttons ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-buttons li {
+  display: inline;
+  margin-right: 20px;
+}
+button {
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+.footer-copyright {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #fff;
+}

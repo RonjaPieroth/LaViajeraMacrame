@@ -1,0 +1,45 @@
+
+
+img {
+  width: 100%;
+  border-radius: 9px;
+  height: 100%;
+  margin: auto 10px;
+  aspect-ratio: 4/3;
+}
+
+p {
+  margin: 20px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+
+.link-macrame-classes {
+  font-weight: bold;
+  color: firebrick;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  margin: 15px auto;
+}
+
+.grid img {
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.grid img:hover {
+  transform: scale(2.5);
+}
+
+.image-block {
+  width: 75%;
+  height: 80%;
+  text-align: center;
+  margin: auto;
+}
+

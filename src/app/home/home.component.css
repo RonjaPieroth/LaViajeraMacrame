@@ -1,0 +1,34 @@
+
+button {
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 9px;
+  display: block;
+  margin: 40px auto;
+}
+
+
+img {
+  width: 220px;
+  border-radius: 9px;
+  height: 100%;
+  margin: auto 10px;
+}
+
+span {
+  text-align: center;
+  display: block;
+}
+
+p {
+  margin: 20px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+
+
+
+
+
+

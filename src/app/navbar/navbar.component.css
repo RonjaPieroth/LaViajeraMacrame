@@ -1,0 +1,64 @@
+.social div {
+  text-align: center;
+  margin-top: 20px;
+}
+.social i {
+  font-size: 24px;
+}
+
+.facebook {
+  margin: 0 10px;
+  float: right;
+  color: #3b5998;
+  text-decoration: none;
+}
+
+.instagram {
+  margin: 0 10px;
+  float: right;
+  color: #e4405f;
+  text-decoration: none;
+}
+
+.flag {
+  margin: 0 10px;
+  float: right;
+  text-decoration: none;
+}
+
+.flag-icon.flag-icon-de {
+  border-radius: 50%;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  background-size: cover;
+}
+
+.flag-icon.flag-icon-gb {
+  border-radius: 50%;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  background-size: cover;
+}
+
+h1{
+  display: inline-block;
+  margin-top: 0;
+}
+
+button{
+  border-radius: 0;
+}
+
+div button:first-child{
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.last-button{
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+
