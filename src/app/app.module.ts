@@ -6,11 +6,9 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
 import { CourseOverviewComponent } from './course-overview/course-overview.component';
-import { SignUpFormComponent } from './sign-up-form/sign-up-form.component';
 import {ReactiveFormsModule} from "@angular/forms";
 import { HomeComponent } from './home/home.component';
 import { CourseComponent } from './course/course.component';
-import { ParticipantsListComponent } from './participants-list/participants-list.component';
 import { FooterComponent } from './footer/footer.component';
 import { ImpressumComponent } from './impressum/impressum.component';
 import { DatenschutzerklaerungComponent } from './datenschutzerklaerung/datenschutzerklaerung.component';
@@ -24,10 +22,8 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
     NavbarComponent,
     AboutComponent,
     CourseOverviewComponent,
-    SignUpFormComponent,
     HomeComponent,
     CourseComponent,
-    ParticipantsListComponent,
     FooterComponent,
     ImpressumComponent,
     DatenschutzerklaerungComponent,

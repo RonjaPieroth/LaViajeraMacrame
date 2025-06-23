@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {HomeComponent} from './home/home.component';
 import {CourseOverviewComponent} from './course-overview/course-overview.component';
-import {SignUpFormComponent} from './sign-up-form/sign-up-form.component';
 import {AboutComponent} from './about/about.component';
 import {ImpressumComponent} from './impressum/impressum.component';
 import {KontaktComponent} from './kontakt/kontakt.component';
@@ -13,7 +12,6 @@ import { CollectionComponent } from './collection/collection.component';
 const routes: Routes = [
   {path: "", component: HomeComponent},
   {path: "courses", component: CourseOverviewComponent},
-  {path: "courses/sign-up/:id", component: SignUpFormComponent},
   {path: "about", component: AboutComponent},
   {path: "impressum", component: ImpressumComponent},
   {path: "contact", component: KontaktComponent},

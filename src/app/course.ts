@@ -1,5 +1,4 @@
 import {SkillLevel} from './skill-level';
-import {Participant} from './participant';
 
 export interface Course {
   id: string;
@@ -10,5 +9,4 @@ export interface Course {
   nextGroupClass: Date|null;
   priceGroupClass: number;
   pricePrivatClass: number;
-  participants: Participant[];
 }

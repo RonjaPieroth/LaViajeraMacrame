@@ -8,5 +8,4 @@ import {Course} from '../course';
 })
 export class CourseComponent {
 @Input() course?: Course;
-//showParticipants: boolean = false;
 }

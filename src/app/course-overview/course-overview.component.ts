@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import {Course} from '../course';
 import {CourseService} from '../course.service';
-import {Participant} from '../participant';
 
 @Component({
   selector: 'app-class-overview',

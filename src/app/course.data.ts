@@ -11,7 +11,6 @@ export  const courseData: Course[] = [
     nextGroupClass: new Date(2024, 10, 28),
     priceGroupClass: 13,
     pricePrivatClass: 30,
-    participants: []
   },
   {
     id: "2",
@@ -22,7 +21,6 @@ export  const courseData: Course[] = [
     nextGroupClass: null,
     priceGroupClass: 19,
     pricePrivatClass: 40,
-    participants: []
   },
   {
     id: "3",
@@ -33,7 +31,6 @@ export  const courseData: Course[] = [
     nextGroupClass: null,
     priceGroupClass: 19,
     pricePrivatClass: 40,
-    participants: []
   },
   {
     id: "4",
@@ -44,7 +41,6 @@ export  const courseData: Course[] = [
     nextGroupClass: null,
     priceGroupClass: 24,
     pricePrivatClass: 50,
-    participants: []
   },
   {
     id: "5",
@@ -55,6 +51,5 @@ export  const courseData: Course[] = [
     nextGroupClass: null,
     priceGroupClass: 24,
     pricePrivatClass: 50,
-    participants: []
   }
 ]

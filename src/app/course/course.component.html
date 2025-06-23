@@ -15,15 +15,6 @@
     <p>Next group class: {{course.nextGroupClass? course.nextGroupClass.toDateString(): "n/a" }}</p>
     <p>Price p.P. (including materials): {{course.priceGroupClass}}€</p>
     <p>Price private class (including materials): {{course.pricePrivatClass}}€</p>
-    <!--
-    <p>Free spaces: {{5-course.participants.length}}</p>
-    <button class="list-button" (click)="showParticipants=true" *ngIf="course.participants.length > 0">Show participants</button> -->
   </div>
-  <!--<div class="flexbutton1">
-    <button
-      class="button1" [routerLink]="['/courses/sign-up', course?.id]"
-      [disabled]="course.participants.length>= 5">register</button>
-  
-</div> -->
-  <!--<app-participants-list [course]="course" *ngIf="showParticipants"></app-participants-list>  --></div>
+  </div>
 </ng-container>
